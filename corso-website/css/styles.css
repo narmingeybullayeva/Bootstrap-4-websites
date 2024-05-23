@@ -4,6 +4,20 @@
   background-size: cover;
 }
 
+.navbar {
+  transition: all 0.5 ease-in-out;
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header .slide {
+  width: 90%;
+  margin: 0 auto;
+}
+
 @media (max-width: 992px) {
   .navbar {
     background: var(--bs-dark);
