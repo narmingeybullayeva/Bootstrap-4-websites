@@ -19,7 +19,7 @@
 }
 
 .header .slide {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -37,6 +37,16 @@
     .header {
       height: 800px !important;
       min-height: 800px !important;     
+    }
+
+    .header .text-container p {
+      width: 100% !important;
+      font-size: 16px;
+    }
+
+    .header .slide {
+      width:90%;
+      margin: 0 auto;
     }
 
     .register{ 
